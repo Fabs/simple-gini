@@ -1,13 +1,14 @@
 {
   "name": "simple-gini",
-  "version": "1.0.2",
-  "description": "Calculates the inequality of a list of integers by the GINI index principle (discretely). See (http://shlegeris.com/gini)",
+  "version": "1.0.4",
+  "description":
+    "Calculates the inequality of a list of integers by the GINI index principle (discretely). See (http://shlegeris.com/gini)",
   "main": "index.js",
   "repository": "git@github.com:Fabs/simple-gini.git",
   "author": "Fabs",
   "license": "MIT",
   "private": false,
-  "files": ["output"],
+  "files": ["output", "lib"],
   "devDependencies": {
     "bower": "^1.8.4",
     "jest": "^22.4.3",
@@ -17,5 +18,8 @@
     "test": "pulp test",
     "test:w": "pulp -w test",
     "build": "pulp build"
+  },
+  "dependencies": {
+    "country-emoji": "^1.2.0"
   }
 }
