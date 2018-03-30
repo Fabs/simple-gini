@@ -1,6 +1,6 @@
 {
   "name": "simple-gini",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "description":
     "Calculates the inequality of a list of integers by the GINI index principle (discretely). See (http://shlegeris.com/gini)",
   "main": "index.js",
